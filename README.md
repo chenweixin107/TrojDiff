@@ -2,7 +2,7 @@
 
 This repository is an official implementation of the paper *"TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets"*.
 
-<img src="/Users/chenweixin/Desktop/CVPR2023/github/framework.png" alt="framework" style="zoom:50%;" />
+<img src="./figures/framework.png" alt="framework" style="zoom:50%;" />
 
 We propose an effective Trojan attack against diffusion models, **TrojDiff**. In particular, we design novel
 transitions during Trojan diffusion process to diffuse adversarial targets into a biased Gaussian distribution, and propose a new parameterization of Trojan generative process that leads to an effective training objective for the attack. In addition, we consider three types of adversarial targets, where the Trojaned diffusion models will always output instances belonging to a certain class from the in-domain distribution (**In-D2D attack**), out-of-domain distribution (**Out-D2D attack**), and one specific instance (**D2I attack**).
@@ -187,11 +187,11 @@ python test_mse.py --data_dir $path_generated_img$
 
 #### Numeric Results
 
-![numeric_result](/Users/chenweixin/Desktop/CVPR2023/github/numeric_result.png)
+![numeric_result](./figures/numeric_result.png)
 
 #### Visualization Results
 
-![generative_process](/Users/chenweixin/Desktop/CVPR2023/github/generative_process.png)
+![generative_process](./figures/generative_process.png)
 
 
 
