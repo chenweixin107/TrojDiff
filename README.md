@@ -127,7 +127,7 @@ Please replace 'main_attack.py' with 'main_attack_d2dout.py' or 'main_attack_d2i
 
 **FID**: 
 
-Please refer to https://github.com/toshas/torch-fidelity for implementation. Note that the evaluation takes some time.
+Please refer to [here](https://github.com/toshas/torch-fidelity) for implementation. Note that the evaluation takes some time.
 
 ```python
 # on CIFAR-10
@@ -138,7 +138,7 @@ python evaluate.py --input2_dir $path_celeba$ --input1_dir $path_generated_img$
 
 **Precision, Recall**: 
 
-Please refer to https://github.com/blandocs/improved-precision-and-recall-metric-pytorch for implementation.
+Please refer to [here](https://github.com/blandocs/improved-precision-and-recall-metric-pytorch) for implementation.
 
 ```python
 # on CIFAR-10
@@ -153,7 +153,7 @@ python improved_precision_recall.py --path_real $path_celeba$ --path_fake $path_
 
 **Attack Precision**:
 
-Also refer to https://github.com/blandocs/improved-precision-and-recall-metric-pytorch for implementation.
+Also refer to [here](https://github.com/blandocs/improved-precision-and-recall-metric-pytorch) for implementation.
 
 ```python
 # on CIFAR-10
@@ -164,7 +164,7 @@ python improved_precision_recall.py --path_real $path_celeba_target_cls$ --path_
 
 **ASR**:
 
-Pre-trained classification models can be downloaded from here.
+Refer to [here](https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release) for implementation.
 
 ```python
 # on CIFAR-10
