@@ -164,15 +164,15 @@ python improved_precision_recall.py --path_real $path_celeba_target_cls$ --path_
 
 **ASR**:
 
-Refer to [here](https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release) for implementation.
+Please refer to [here](https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release) for implementation.
 
 ```python
 # on CIFAR-10
-python my_eval.py --dataset cifar10 --data_dir $path_generated_img$
+python eval.py --dataset cifar10 --data_dir $path_generated_img$
 # on CelebA
-python my_eval.py --dataset celeba --data_dir $path_generated_img$
+python eval.py --dataset celeba --data_dir $path_generated_img$
 # on MNIST
-python my_eval.py --dataset mnist --data_dir $path_generated_img$
+python eval.py --dataset mnist --data_dir $path_generated_img$
 ```
 
 **MSE**:
